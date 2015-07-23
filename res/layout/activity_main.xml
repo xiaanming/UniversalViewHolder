@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/single_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView" />
+
+    <Button
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GirdView" />
+
+    <Button
+        android:id="@+id/multiple_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView多个item效果" />
+    
+     <Button
+        android:id="@+id/list_as_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用ListView实现 GridView效果" />
+     
+    <Button
+        android:id="@+id/multi_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FullWidthItem" />
+    
+    
+
+</LinearLayout>
